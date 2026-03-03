@@ -1,93 +1,43 @@
 import requests
 import json
-import datetime
+import os
 
-# -------------------------------------------------------------------------
-# CONFIGURATION
-# -------------------------------------------------------------------------
-# Replace with your actual Access Token (NOT the Client Secret)
-ACCESS_TOKEN = "YOUR_ACCESS_TOKEN_HERE" 
+# 1. Setup credentials
+TOKEN = os.environ.get('LINKEDIN_TOKEN')
+ORG_ID = "98086113"
 
-# Your Organization URN (e.g., "urn:li:organization:12345678")
-ORGANIZATION_URN = "urn:li:organization:98086113" 
+# 2. Define the 2026 API requirements
+url = "https://api.linkedin.com/rest/posts"
+headers = {
+    "Authorization": f"Bearer {TOKEN}",
+    "X-Restli-Protocol-Version": "2.0.0",
+    "LinkedIn-Version": "202601",  # Mandatory in 2026
+    "Content-Type": "application/json"
+}
+params = {
+    "author": f"urn:li:organization:{ORG_ID}",
+    "q": "author",
+    "count": 5
+}
 
-# -------------------------------------------------------------------------
-# SCRIPT
-# -------------------------------------------------------------------------
-def fetch_latest_posts():
-    url = "https://api.linkedin.com/rest/posts"
+try:
+    print("Checking connection to LinkedIn...")
+    response = requests.get(url, headers=headers, params=params)
     
-    headers = {
-        "Authorization": f"Bearer {ACCESS_TOKEN}",
-        "LinkedIn-Version": "202401",
-        "X-Restli-Protocol-Version": "2.0.0",
-        "Content-Type": "application/json"
-    }
+    # If this fails, it will print the REAL reason why (e.g., Expired Token)
+    if response.status_code != 200:
+        print(f"LinkedIn Error {response.status_code}: {response.text}")
+    
+    response.raise_for_status()
+    posts = response.json().get('elements', [])
 
-    params = {
-        "author": ORGANIZATION_URN,
-        "q": "author",
-        "count": 3,
-        "sortBy": "PUBLISHED_DATE"
-    }
+    # 3. Create the file (This prevents the 128 error)
+    with open('linkedin_data.json', 'w') as f:
+        json.dump(posts, f, indent=2)
+    print(f"Successfully saved {len(posts)} posts to linkedin_data.json")
 
-    try:
-        response = requests.get(url, headers=headers, params=params)
-        response.raise_for_status()
-        data = response.json()
-        
-        formatted_posts = []
-        
-        for element in data.get('elements', []):
-            # 1. Extract Text
-            commentary = element.get('commentary', '')
-            
-            # 2. Extract Image (Handling LinkedIn's complex media structure)
-            image_url = ""
-            content = element.get('content', {})
-            if 'media' in content:
-                # Often the image is in a nested structure, simplifying here:
-                media_list = content['media']
-                if media_list and 'id' in media_list[0]:
-                    # In a real app, you might need a second call to resolve the image URN 
-                    # or use the 'projection' param to get the downloadUrl directly.
-                    # For this script, we'll try to find a direct URL if available, 
-                    # otherwise, we leave it blank or use a placeholder.
-                    pass 
-
-            # 3. Format Date
-            created_at = element.get('createdAt', 0) / 1000 # MS to Seconds
-            date_obj = datetime.datetime.fromtimestamp(created_at)
-            time_diff = datetime.datetime.now() - date_obj
-            
-            if time_diff.days > 7:
-                date_str = f"{time_diff.days // 7}w"
-            else:
-                date_str = f"{time_diff.days}d"
-
-            # 4. Map to React Component Structure
-            post_obj = {
-                "id": element.get('id'),
-                "date": date_str,
-                "content": commentary,
-                "image": image_url if image_url else "", # React component handles empty images
-                "likes": 0, # Requires 'socialActions' API call to fetch real numbers
-                "comments": 0
-            }
-            formatted_posts.append(post_obj)
-
-        # Output for React
-        print(json.dumps(formatted_posts, indent=2))
-        
-        # Save to file
-        with open('linkedin_data.json', 'w') as f:
-            json.dump(formatted_posts, f, indent=2)
-            
-        print("\nSuccessfully saved to linkedin_data.json")
-
-    except Exception as e:
-        print(f"Error fetching posts: {str(e)}")
-        print(response.text)
-
-if __name__ == "__main__":
-    fetch_latest_posts()
+except Exception as e:
+    print(f"Failed to fetch data: {e}")
+    # SAFETY: Create an empty file so the next step in GitHub doesn't crash
+    with open('linkedin_data.json', 'w') as f:
+        json.dump([], f)
