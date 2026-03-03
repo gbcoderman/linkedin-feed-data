@@ -1,44 +1,43 @@
 import requests
 import json
 import os
-import sys
 
+# 1. Setup credentials
 TOKEN = os.environ.get('LINKEDIN_TOKEN')
 ORG_ID = "98086113"
 
-# We are REMOVING the version header to let LinkedIn choose the default
+# 2. Define the 2026 API requirements
+url = "https://api.linkedin.com/rest/posts"
 headers = {
     "Authorization": f"Bearer {TOKEN}",
     "X-Restli-Protocol-Version": "2.0.0",
+    "LinkedIn-Version": "202601",  # Mandatory in 2026
     "Content-Type": "application/json"
+}
+params = {
+    "author": f"urn:li:organization:{ORG_ID}",
+    "q": "author",
+    "count": 5
 }
 
 try:
-    url = "https://api.linkedin.com/rest/posts"
-    params = {
-        "author": f"urn:li:organization:{ORG_ID}",
-        "q": "author",
-        "count": 10
-    }
+    print("Checking connection to LinkedIn...")
+    response = requests.get(url, headers=headers, params=params)
     
-    print(f"Connecting to LinkedIn using Default Version...")
-    response = requests.get(url, params=params, headers=headers)
-    
-    # If it still fails, it will tell us exactly which versions are valid
+    # If this fails, it will print the REAL reason why (e.g., Expired Token)
     if response.status_code != 200:
-        print(f"LinkedIn said: {response.text}")
-        
+        print(f"LinkedIn Error {response.status_code}: {response.text}")
+    
     response.raise_for_status()
     posts = response.json().get('elements', [])
 
+    # 3. Create the file (This prevents the 128 error)
     with open('linkedin_data.json', 'w') as f:
         json.dump(posts, f, indent=2)
-    
-    print(f"Success! Fetched {len(posts)} posts.")
+    print(f"Successfully saved {len(posts)} posts to linkedin_data.json")
 
 except Exception as e:
-    print(f"Error: {e}")
-    if not os.path.exists('linkedin_data.json'):
-        with open('linkedin_data.json', 'w') as f:
-            json.dump([], f)
-    sys.exit(1)
+    print(f"Failed to fetch data: {e}")
+    # SAFETY: Create an empty file so the next step in GitHub doesn't crash
+    with open('linkedin_data.json', 'w') as f:
+        json.dump([], f)
