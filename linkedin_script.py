@@ -7,7 +7,7 @@ import sys
 
 # --- CONFIGURATION ---
 ORG_ID = "98086113"
-API_VERSION = "202601" # As requested
+API_VERSION = "202601" 
 # ---------------------
 
 print("--- STARTING LINKEDIN FETCH SCRIPT ---")
@@ -17,8 +17,6 @@ TOKEN = os.environ.get('LINKEDIN_TOKEN')
 if not TOKEN:
     print("CRITICAL ERROR: 'LINKEDIN_TOKEN' environment variable is missing or empty.")
     sys.exit(1)
-else:
-    print(f"Token found (Length: {len(TOKEN)} chars). Proceeding...")
 
 # 2. Setup API Request
 url = "https://api.linkedin.com/rest/posts"
@@ -28,11 +26,12 @@ headers = {
     "LinkedIn-Version": API_VERSION,
     "Content-Type": "application/json"
 }
+
+# REMOVED "sortBy" parameter which was causing the 400 error
 params = {
     "author": f"urn:li:organization:{ORG_ID}",
     "q": "author",
-    "count": 10,
-    "sortBy": "PUBLISHED_DATE"
+    "count": 10
 }
 
 # Helper: Fetch image URL from URN
@@ -65,24 +64,13 @@ try:
     print(f"Fetching posts for Organization: {ORG_ID}...")
     response = requests.get(url, headers=headers, params=params)
     
-    # --- DEBUGGING OUTPUT ---
-    print(f"Response Status: {response.status_code}")
-    
     if response.status_code != 200:
         print("\n!!! API ERROR !!!")
         print(f"Error Body: {response.text}")
-        print("Possible causes:")
-        print("1. Token is expired.")
-        print("2. Token does not have 'r_organization_social' permission.")
-        print("3. Organization ID is incorrect.")
-        print("4. API Version '202601' is invalid (try '202401').")
-        sys.exit(1) # Fail the action so you see the logs
+        sys.exit(1) 
         
     posts = response.json().get('elements', [])
     print(f"Success! Found {len(posts)} posts.")
-    
-    if len(posts) == 0:
-        print("Warning: API returned 0 posts. Check if the organization has posted recently.")
 
     print("Resolving images...")
 
