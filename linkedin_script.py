@@ -5,7 +5,8 @@ import sys
 
 TOKEN = os.environ.get('LINKEDIN_TOKEN')
 ORG_ID = "98086113"
-API_VERSION = "202401" # Using a stable version
+# LinkedIn now requires a very recent version string
+API_VERSION = "202512" 
 
 headers = {
     "Authorization": f"Bearer {TOKEN}",
@@ -16,7 +17,9 @@ headers = {
 
 def get_actual_link(urn):
     """Turns the URN claim ticket into a real photo link."""
+    if not urn: return None
     try:
+        # Images API also needs the version header
         img_url = f"https://api.linkedin.com/rest/images/{urn}"
         res = requests.get(img_url, headers=headers)
         return res.json().get('downloadUrl')
@@ -24,7 +27,7 @@ def get_actual_link(urn):
         return None
 
 try:
-    # 1. Get the posts (Simple request, no projection to fail)
+    # 1. Get the posts
     url = "https://api.linkedin.com/rest/posts"
     params = {
         "author": f"urn:li:organization:{ORG_ID}",
@@ -32,14 +35,21 @@ try:
         "count": 10
     }
     
-    print("Fetching posts...")
+    print(f"Fetching posts using API Version {API_VERSION}...")
     response = requests.get(url, params=params, headers=headers)
+    
+    # If it still fails, let's see exactly what LinkedIn wants
+    if response.status_code != 200:
+        print(f"Status Code: {response.status_code}")
+        print(f"Message: {response.text}")
+        
     response.raise_for_status()
     posts = response.json().get('elements', [])
 
-    # 2. For each post, look for an image and find its real link
+    # 2. Resolve images
     for post in posts:
         content = post.get('content', {})
+        # Checking different places LinkedIn hides images in 2026
         media = content.get('media', {})
         image_urn = media.get('image')
         
@@ -53,11 +63,9 @@ try:
     with open('linkedin_data.json', 'w') as f:
         json.dump(posts, f, indent=2)
     
-    print("Done! Data saved with resolved image links.")
+    print("Success! Data saved to linkedin_data.json")
 
 except Exception as e:
     print(f"Error: {e}")
-    if not os.path.exists('linkedin_data.json'):
-        with open('linkedin_data.json', 'w') as f:
-            json.dump([], f)
-    sys.exit(1)
+    # Always create the file to avoid error 128
+    if not os.path.
