@@ -3,75 +3,90 @@ import json
 import os
 import urllib.parse
 import time
+import sys
 
-# 1. Setup credentials
-TOKEN = os.environ.get('LINKEDIN_TOKEN')
+# --- CONFIGURATION ---
 ORG_ID = "98086113"
+API_VERSION = "202601" # As requested
+# ---------------------
 
-# 2. Define the 2026 API requirements
+print("--- STARTING LINKEDIN FETCH SCRIPT ---")
+
+# 1. Verify Token
+TOKEN = os.environ.get('LINKEDIN_TOKEN')
+if not TOKEN:
+    print("CRITICAL ERROR: 'LINKEDIN_TOKEN' environment variable is missing or empty.")
+    sys.exit(1)
+else:
+    print(f"Token found (Length: {len(TOKEN)} chars). Proceeding...")
+
+# 2. Setup API Request
 url = "https://api.linkedin.com/rest/posts"
 headers = {
     "Authorization": f"Bearer {TOKEN}",
     "X-Restli-Protocol-Version": "2.0.0",
-    "LinkedIn-Version": "202601",  # Mandatory in 2026
+    "LinkedIn-Version": API_VERSION,
     "Content-Type": "application/json"
 }
 params = {
     "author": f"urn:li:organization:{ORG_ID}",
     "q": "author",
-    "count": 10, # Fetch a few more to be safe
+    "count": 10,
     "sortBy": "PUBLISHED_DATE"
 }
 
 # Helper: Fetch image URL from URN
 def get_image_url(urn):
-    if not urn:
-        return None
-    
-    # URL encode the URN
+    if not urn: return None
     encoded_urn = urllib.parse.quote(urn)
     image_url = f"https://api.linkedin.com/rest/images/{encoded_urn}"
-    
     try:
-        response = requests.get(image_url, headers=headers)
-        if response.status_code == 200:
-            return response.json().get("downloadUrl")
-        else:
-            print(f"Failed to fetch image {urn}: {response.status_code}")
-            return None
-    except Exception as e:
-        print(f"Error fetching image {urn}: {e}")
-        return None
+        res = requests.get(image_url, headers=headers)
+        if res.status_code == 200:
+            return res.json().get("downloadUrl")
+    except:
+        pass
+    return None
 
-# Helper: Fetch full post details (for reshares or missing details)
+# Helper: Fetch full post details
 def get_post_details(post_urn):
-    if not post_urn:
-        return None
-        
+    if not post_urn: return None
     encoded_urn = urllib.parse.quote(post_urn)
     post_url = f"https://api.linkedin.com/rest/posts/{encoded_urn}"
-    
     try:
-        response = requests.get(post_url, headers=headers)
-        if response.status_code == 200:
-            return response.json()
-        return None
-    except Exception as e:
-        print(f"Error fetching post {post_urn}: {e}")
-        return None
+        res = requests.get(post_url, headers=headers)
+        if res.status_code == 200:
+            return res.json()
+    except:
+        pass
+    return None
 
 try:
-    print("Checking connection to LinkedIn...")
+    print(f"Fetching posts for Organization: {ORG_ID}...")
     response = requests.get(url, headers=headers, params=params)
     
-    if response.status_code != 200:
-        print(f"LinkedIn Error {response.status_code}: {response.text}")
+    # --- DEBUGGING OUTPUT ---
+    print(f"Response Status: {response.status_code}")
     
-    response.raise_for_status()
+    if response.status_code != 200:
+        print("\n!!! API ERROR !!!")
+        print(f"Error Body: {response.text}")
+        print("Possible causes:")
+        print("1. Token is expired.")
+        print("2. Token does not have 'r_organization_social' permission.")
+        print("3. Organization ID is incorrect.")
+        print("4. API Version '202601' is invalid (try '202401').")
+        sys.exit(1) # Fail the action so you see the logs
+        
     posts = response.json().get('elements', [])
-    print(f"Found {len(posts)} posts. Resolving images...")
+    print(f"Success! Found {len(posts)} posts.")
+    
+    if len(posts) == 0:
+        print("Warning: API returned 0 posts. Check if the organization has posted recently.")
 
-    # 3. Process posts to resolve images
+    print("Resolving images...")
+
+    # 3. Process posts
     for post in posts:
         image_urn = None
         
@@ -112,16 +127,15 @@ try:
             print(f"Resolving {image_urn}...")
             real_url = get_image_url(image_urn)
             if real_url:
-                print(f" -> {real_url[:30]}...")
-                # Inject into post structure
+                print(f" -> Found URL")
                 if "content" not in post: post["content"] = {}
                 if "media" not in post["content"]: post["content"]["media"] = {}
                 post["content"]["media"]["image_url"] = real_url
                 
-                # Update legacy path for compatibility
+                # Update legacy path
                 if "content" in post and "media" in post["content"] and "id" in post["content"]["media"]:
                      post["content"]["media"]["id"] = real_url
-            time.sleep(0.2) # Rate limit niceness
+            time.sleep(0.2)
 
     # 4. Fetch Follower Count
     follower_count = 532
@@ -143,10 +157,8 @@ try:
 
     with open('linkedin_data.json', 'w') as f:
         json.dump(output_data, f, indent=2)
-    print(f"Successfully saved {len(posts)} posts with metadata.")
+    print(f"Successfully saved {len(posts)} posts to linkedin_data.json")
 
 except Exception as e:
-    print(f"Failed to fetch data: {e}")
-    # SAFETY: Create an empty file so the next step in GitHub doesn't crash
-    with open('linkedin_data.json', 'w') as f:
-        json.dump([], f)
+    print(f"\nCRITICAL SCRIPT ERROR: {e}")
+    sys.exit(1)
