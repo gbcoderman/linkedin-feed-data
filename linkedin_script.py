@@ -2,42 +2,56 @@ import requests
 import json
 import os
 
-# 1. Setup credentials
 TOKEN = os.environ.get('LINKEDIN_TOKEN')
 ORG_ID = "98086113"
+API_VERSION = "202601"
 
-# 2. Define the 2026 API requirements
-url = "https://api.linkedin.com/rest/posts"
 headers = {
     "Authorization": f"Bearer {TOKEN}",
     "X-Restli-Protocol-Version": "2.0.0",
-    "LinkedIn-Version": "202601",  # Mandatory in 2026
+    "LinkedIn-Version": API_VERSION,
     "Content-Type": "application/json"
 }
-params = {
-    "author": f"urn:li:organization:{ORG_ID}",
-    "q": "author",
-    "count": 5
-}
+
+def get_image_url(image_urn):
+    """Turns a claim ticket (URN) into the actual image link."""
+    if not image_urn: return None
+    image_url = f"https://api.linkedin.com/rest/images/{image_urn}"
+    try:
+        res = requests.get(image_url, headers=headers)
+        return res.json().get('downloadUrl')
+    except:
+        return None
+
+# 1. Fetch the Posts
+posts_url = "https://api.linkedin.com/rest/posts"
+params = {"author": f"urn:li:organization:{ORG_ID}", "q": "author", "count": 10}
 
 try:
-    print("Checking connection to LinkedIn...")
-    response = requests.get(url, headers=headers, params=params)
-    
-    # If this fails, it will print the REAL reason why (e.g., Expired Token)
-    if response.status_code != 200:
-        print(f"LinkedIn Error {response.status_code}: {response.text}")
-    
+    response = requests.get(posts_url, headers=headers, params=params)
     response.raise_for_status()
     posts = response.json().get('elements', [])
 
-    # 3. Create the file (This prevents the 128 error)
+    # 2. Resolve URNs to real URLs
+    for post in posts:
+        # Check for images in standard posts
+        content = post.get('content', {})
+        media = content.get('media', {}) # For 2026 single-image posts
+        multi_media = content.get('multiImage', {}).get('images', [])
+
+        if media and 'image' in media:
+            media['image_url'] = get_image_url(media['image'])
+        
+        for img in multi_media:
+            img['image_url'] = get_image_url(img['id'])
+
+    # 3. Save the enriched data
     with open('linkedin_data.json', 'w') as f:
         json.dump(posts, f, indent=2)
-    print(f"Successfully saved {len(posts)} posts to linkedin_data.json")
+    print("Successfully resolved images and saved posts!")
 
 except Exception as e:
-    print(f"Failed to fetch data: {e}")
-    # SAFETY: Create an empty file so the next step in GitHub doesn't crash
+    print(f"Error: {e}")
+    # Still save an empty file to prevent Error 128
     with open('linkedin_data.json', 'w') as f:
         json.dump([], f)
