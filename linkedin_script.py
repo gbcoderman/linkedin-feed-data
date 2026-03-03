@@ -5,8 +5,8 @@ import sys
 
 TOKEN = os.environ.get('LINKEDIN_TOKEN')
 ORG_ID = "98086113"
-# LinkedIn now requires a very recent version string
-API_VERSION = "202512" 
+# March 2026 versioning
+API_VERSION = "202603" 
 
 headers = {
     "Authorization": f"Bearer {TOKEN}",
@@ -16,18 +16,21 @@ headers = {
 }
 
 def get_actual_link(urn):
-    """Turns the URN claim ticket into a real photo link."""
+    """Fetches the actual image download URL."""
     if not urn: return None
     try:
-        # Images API also needs the version header
+        # Image URNs need to be URL encoded if they contain special characters
         img_url = f"https://api.linkedin.com/rest/images/{urn}"
         res = requests.get(img_url, headers=headers)
-        return res.json().get('downloadUrl')
+        if res.status_code == 200:
+            return res.json().get('downloadUrl')
+        return None
     except:
         return None
 
 try:
     # 1. Get the posts
+    # Note: In 2026, LinkedIn prefers the /rest/posts endpoint with the author URN
     url = "https://api.linkedin.com/rest/posts"
     params = {
         "author": f"urn:li:organization:{ORG_ID}",
@@ -35,26 +38,27 @@ try:
         "count": 10
     }
     
-    print(f"Fetching posts using API Version {API_VERSION}...")
+    print(f"Connecting to LinkedIn API v{API_VERSION}...")
     response = requests.get(url, params=params, headers=headers)
     
-    # If it still fails, let's see exactly what LinkedIn wants
     if response.status_code != 200:
-        print(f"Status Code: {response.status_code}")
-        print(f"Message: {response.text}")
-        
+        print(f"Error {response.status_code}: {response.text}")
+    
     response.raise_for_status()
     posts = response.json().get('elements', [])
 
     # 2. Resolve images
     for post in posts:
+        # Check standard media and article thumbnails
         content = post.get('content', {})
-        # Checking different places LinkedIn hides images in 2026
         media = content.get('media', {})
-        image_urn = media.get('image')
+        article = content.get('article', {})
+        
+        # Priority: Media image > Article thumbnail
+        image_urn = media.get('image') or article.get('thumbnail')
         
         if image_urn:
-            print(f"Resolving image: {image_urn}")
+            print(f"Found image: {image_urn}. Fetching link...")
             post['resolved_image_url'] = get_actual_link(image_urn)
         else:
             post['resolved_image_url'] = None
@@ -63,9 +67,12 @@ try:
     with open('linkedin_data.json', 'w') as f:
         json.dump(posts, f, indent=2)
     
-    print("Success! Data saved to linkedin_data.json")
+    print(f"Success! Processed {len(posts)} posts.")
 
 except Exception as e:
-    print(f"Error: {e}")
-    # Always create the file to avoid error 128
-    if not os.path.
+    print(f"Final Script Error: {e}")
+    # Always create file to keep Git happy
+    if not os.path.exists('linkedin_data.json'):
+        with open('linkedin_data.json', 'w') as f:
+            json.dump([], f)
+    sys.exit(1)
