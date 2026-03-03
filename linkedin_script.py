@@ -5,8 +5,8 @@ import sys
 
 TOKEN = os.environ.get('LINKEDIN_TOKEN')
 ORG_ID = "98086113"
-# Swapping to the most widely supported stable version
-API_VERSION = "202502" 
+# Going back to the version that gave us the green tick
+API_VERSION = "202401" 
 
 headers = {
     "Authorization": f"Bearer {TOKEN}",
@@ -14,17 +14,6 @@ headers = {
     "LinkedIn-Version": API_VERSION,
     "Content-Type": "application/json"
 }
-
-def get_actual_link(urn):
-    if not urn: return None
-    try:
-        img_url = f"https://api.linkedin.com/rest/images/{urn}"
-        res = requests.get(img_url, headers=headers)
-        if res.status_code == 200:
-            return res.json().get('downloadUrl')
-        return None
-    except:
-        return None
 
 try:
     url = "https://api.linkedin.com/rest/posts"
@@ -34,33 +23,25 @@ try:
         "count": 10
     }
     
-    print(f"Connecting to LinkedIn API v{API_VERSION}...")
+    print(f"Rolling back to API v{API_VERSION}...")
     response = requests.get(url, params=params, headers=headers)
     
+    # If LinkedIn is forcing an upgrade, this will tell us exactly which version it wants
     if response.status_code != 200:
-        print(f"Error {response.status_code}: {response.text}")
-    
+        print(f"LinkedIn Response: {response.text}")
+        
     response.raise_for_status()
     posts = response.json().get('elements', [])
 
-    for post in posts:
-        content = post.get('content', {})
-        media = content.get('media', {})
-        article = content.get('article', {})
-        image_urn = media.get('image') or article.get('thumbnail')
-        
-        if image_urn:
-            post['resolved_image_url'] = get_actual_link(image_urn)
-        else:
-            post['resolved_image_url'] = None
-
+    # Save the posts (Even if images are just URNs for now, at least the text will show)
     with open('linkedin_data.json', 'w') as f:
         json.dump(posts, f, indent=2)
     
-    print(f"Success! Processed {len(posts)} posts using version {API_VERSION}.")
+    print(f"Success! Fetched {len(posts)} posts. The green tick should be back.")
 
 except Exception as e:
-    print(f"Final Script Error: {e}")
+    print(f"Error: {e}")
+    # Create an empty file so the 'git add' doesn't fail with error 128
     if not os.path.exists('linkedin_data.json'):
         with open('linkedin_data.json', 'w') as f:
             json.dump([], f)
