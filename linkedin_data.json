@@ -1,9 +1,34 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1773124425.6008456
+    "generatedAt": 1773145893.2932613
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1773126045362,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1773126071649,
+      "visibility": "PUBLIC",
+      "publishedAt": 1773126045362,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:share:7437029663182512128",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "altText": "",
+          "id": "https://media.licdn.com/dms/image/v2/D4E22AQE2M6T7v13d9Q/feedshare-shrink_2048_1536/B4EZzWjEgOJwAg-/0/1773126044091?e=1774483200&v=beta&t=CQDXxz707n2mks-pSPJw3Jba12giKVgoydbZxEccdqg",
+          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQE2M6T7v13d9Q/feedshare-shrink_2048_1536/B4EZzWjEgOJwAg-/0/1773126044091?e=1774483200&v=beta&t=CQDXxz707n2mks-pSPJw3Jba12giKVgoydbZxEccdqg"
+        }
+      },
+      "commentary": "Modular Power Is Only Faster If Integration Is Managed\n\nModular power units are designed to accelerate data centre delivery. But when the module arrives on site, the work is only just beginning.\n\n- Transport inspections.\n- Access infrastructure.\n- Electrical connections.\n- Cabling installation.\n- Mechanical ancillaries.\n- Technical cleaning ahead of commissioning.\n\nToo often these activities are split across multiple subcontractors, each introducing additional coordination, programme risk and potential delay.\n\nAs @[Gavin Bannerman](urn:li:person:y0E9qox69A), Technical Operations Manager at Filmtek Data Solutions, explains:\n\n\u201cThere\u2019s a difference between a module that\u2019s been delivered and a module that\u2019s been integrated.\u201d\n\nWe bring these secondary works together under a single managed scope; delivering turnkey module integration through teams that understand the sequencing, standards and discipline required in mission-critical environments.\n\nOne team. One mobilisation. One point of accountability.\n\nFrom the moment the module arrives on site to the point it is integrated and ready for commissioning.\n\nContact us to know more: info\\@filmtekdatasolutions.com\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ModularInfrastructure} {hashtag|\\#|CriticalPower} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|EMEA}",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1772783480226,
@@ -244,31 +269,6 @@
         }
       },
       "commentary": "The Terrorism \\(Protection of Premises\\) Act 2025 places a legal duty on organisations operating publicly accessible venues to assess risk and implement proportionate protective measures.\n\n\ud835\uddd9\ud835\uddff\ud835\uddfc\ud835\uddfa \ud835\udfee\ud835\udfec\ud835\udfee\ud835\udff3, \ud835\uddf2\ud835\uddfb\ud835\uddf3\ud835\uddfc\ud835\uddff\ud835\uddf0\ud835\uddf2\ud835\uddfa\ud835\uddf2\ud835\uddfb\ud835\ude01 \ud835\uddef\ud835\uddf2\ud835\uddf4\ud835\uddf6\ud835\uddfb\ud835\ude00.\n\nIf your organisation manages a space with capacity for 200+ people, compliance will demand clear accountability, documented planning and demonstrable action.\n\nThis is about governance, operational resilience and reputation.\nLeadership teams should already be asking:\n- Have we formally assessed our site vulnerabilities?\n- Are our emergency procedures documented and tested?\n- Does our physical infrastructure support controlled access and safe evacuation?\n- Can we evidence compliance if requested by the regulator?\n\nMartyn\u2019s Law is not solely a security team responsibility. It sits with executive leadership and property stakeholders.\n\nWe support organisations in aligning infrastructure and containment systems with regulatory expectations, ensuring readiness is built into the physical environment. If you\u2019re responsible for oversight of public-facing premises, now is the time to review your position. Contact us today: info\\@filmtekdatasolutions.com \n\n{hashtag|\\#|MartynsLaw} {hashtag|\\#|ProtectDuty} {hashtag|\\#|CorporateGovernance} {hashtag|\\#|UKBusiness} {hashtag|\\#|FacilitiesManagement} {hashtag|\\#|InfrastructureResilience} {hashtag|\\#|SecurityCompliance} {hashtag|\\#|FilmtekDataSolutions} {hashtag|\\#|RiskLeadership} {hashtag|\\#|BuiltEnvironment}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1771483824905,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1771483826264,
-      "visibility": "PUBLIC",
-      "publishedAt": 1771483824905,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:share:7430141689798946816",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "altText": "",
-          "id": "https://media.licdn.com/dms/image/v2/D4E22AQEu1HBUo61EPw/feedshare-shrink_2048_1536/B4EZx0qflgJ8BE-/0/1771483822830?e=1774483200&v=beta&t=1OZI8v3Gf6ajuGIhAbHrJEUeOU2f0zTFEeEiZVsktAc",
-          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQEu1HBUo61EPw/feedshare-shrink_2048_1536/B4EZx0qflgJ8BE-/0/1771483822830?e=1774483200&v=beta&t=1OZI8v3Gf6ajuGIhAbHrJEUeOU2f0zTFEeEiZVsktAc"
-        }
-      },
-      "commentary": "Labour availability and competency remain one of the most significant risks to programme certainty, particularly as delivery continues to accelerate.\n\nIn live and near-live environments, workforce capability is not a variable that can be left unmanaged.\n\nCritical infrastructure demands:\n \u2022 Technically literate operatives\n \u2022 Clean-build discipline\n \u2022 Commissioning awareness \n \u2022 Strict adherence to MOPs, SOPs and permit systems\n \u2022 Rapid mobilisation without compromising compliance\n\nOur industry is moving beyond transactional labour supply.\nWhat projects require now is structured, technically aligned workforce integration.\nOver the coming weeks, we will outline how FDS approaches mission-critical workforce delivery differently.\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ProgrammeManagement} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|EMEA}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
