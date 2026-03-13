@@ -1,9 +1,33 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1773383809.9964743
+    "generatedAt": 1773405387.2862835
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1773391962146,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1773391977972,
+      "visibility": "PUBLIC",
+      "publishedAt": 1773391962146,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:ugcPost:7438144999403298816",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "title": "What is Commissioning",
+          "id": "urn:li:document:D4E1FAQE8V0d5WleOYg"
+        }
+      },
+      "commentary": "Commissioning is where the truth is revealed.\nIt\u2019s the moment systems are tested, validated and proven ready for operation - and where installation quality becomes impossible to hide.\n\nCommissioning is not a box-ticking exercise. It is the process that ensures systems are designed, inspected, tested and documented correctly before going live.\n\nWe\u2019ve broken down the fundamentals in the carousel below and why commissioning should be considered long before the final stages of a project.\n\nBecause when commissioning begins, the quality of the workforce behind the installation quickly becomes clear.\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|Commissioning} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionLeadership} \\#CriticalInfrastructure\\#DataCentres {hashtag|\\#|MissionCritical} {hashtag|\\#|Commissioning} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|CriticalInfrastructure}",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1773315495107,
@@ -20,8 +44,7 @@
       "content": {
         "media": {
           "altText": "",
-          "id": "https://media.licdn.com/dms/image/v2/D4E22AQHzd4GmuwPOeg/feedshare-shrink_2048_1536/B4EZzh1w4cHAAk-/0/1773315493685?e=1775088000&v=beta&t=KFvGUV6xysrJSbm8y-9oz6NOEmZHi44UuJSyzZyfvxo",
-          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQHzd4GmuwPOeg/feedshare-shrink_2048_1536/B4EZzh1w4cHAAk-/0/1773315493685?e=1775088000&v=beta&t=KFvGUV6xysrJSbm8y-9oz6NOEmZHi44UuJSyzZyfvxo"
+          "id": "urn:li:image:D4E22AQHzd4GmuwPOeg"
         }
       },
       "commentary": "Data centre projects operate within tightly controlled delivery programmes where installation quality, documentation accuracy and sequencing discipline directly influence commissioning outcomes.\n\nElectricians and MEP operatives working in these environments must understand more than their trade. They must be comfortable operating within structured project frameworks where:\n\n- Installations must withstand commissioning scrutiny\n- Documentation and testing are completed to exacting standards\n- Clean-build disciplines are maintained throughout delivery\n- Permit-to-work systems are strictly followed\n- Installation decisions can have operational consequences\n\nThis level of awareness is what separates general construction labour from operatives who are truly prepared for mission-critical delivery.\n\nWorkforce competency is central to our deployment model. Every operative is selected not only for technical capability, but for their ability to operate effectively within the demands of data centre and critical infrastructure environments.\n\nBecause when commissioning begins, the standard of the workforce behind the installation becomes immediately visible.\n\nReach out to know more: info\\@filmtekdatasolutions.com\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ElectricalEngineering} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|CriticalInfrastructure}",
@@ -218,57 +241,6 @@
         }
       },
       "commentary": "Filmtek Data Solutions will be attending Data Centre World London on 4\u20135 March at ExCeL.\n\nIt\u2019s a must attend event on the calendar and as our work continues to grow across the UK and EMEA, we look forward to reconnecting with industry colleagues and meeting new partners.\n\nIf you\u2019re attending, we\u2019d be pleased to see you there.\n\nContact us at: info\\@filmtekdatasolutions.com \n\n{hashtag|\\#|FDS} {hashtag|\\#|DCW} {hashtag|\\#|DataCentreWorld2026} ",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1771918129594,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1771918150824,
-      "visibility": "PUBLIC",
-      "publishedAt": 1771918129594,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:ugcPost:7431963297580597250",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "poll": {
-          "options": [
-            {
-              "isVotedByViewer": false,
-              "voteCount": 7,
-              "text": "JIB Gold Card"
-            },
-            {
-              "isVotedByViewer": false,
-              "voteCount": 8,
-              "text": "ECS Gold Card"
-            },
-            {
-              "isVotedByViewer": false,
-              "voteCount": 1,
-              "text": "ECS Registered Electrician"
-            },
-            {
-              "isVotedByViewer": false,
-              "voteCount": 1,
-              "text": "Other / In Progress"
-            }
-          ],
-          "settings": {
-            "duration": "FOURTEEN_DAYS",
-            "voteSelectionType": "SINGLE_VOTE",
-            "isVoterVisibleToAuthor": true
-          },
-          "uniqueVotersCount": 17,
-          "question": "Which electrical qualification do you currently hold?"
-        }
-      },
-      "commentary": "\ud835\udddd\ud835\udddc\ud835\uddd5 / \ud835\uddd8\ud835\uddd6\ud835\udde6 \ud835\uddd8\ud835\uddf9\ud835\uddf2\ud835\uddf0\ud835\ude01\ud835\uddff\ud835\uddf6\ud835\uddf0\ud835\uddf6\ud835\uddee\ud835\uddfb\ud835\ude00 \ud835\udde6\ud835\ude02\ud835\uddfd\ud835\uddfd\ud835\uddfc\ud835\uddff\ud835\ude01\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddd7\ud835\uddee\ud835\ude01\ud835\uddee \ud835\uddd6\ud835\uddf2\ud835\uddfb\ud835\ude01\ud835\uddff\ud835\uddf2 \ud835\uddd7\ud835\uddf2\ud835\uddf9\ud835\uddf6\ud835\ude03\ud835\uddf2\ud835\uddff\ud835\ude06\n\nThe demand for experienced electricians within data centre and mission-critical infrastructure projects continues to be more valuable. These environments require more than technical ability alone, demanding recognised qualifications and confidence operating within highly controlled, compliance-driven settings.\n\nWe are currently engaging with JIB and ECS-qualified electricians who have experience in critical infrastructure, white space installations, plant rooms and commissioning support.\n\nIf you are operating within the mission-critical sector or looking to align your experience with upcoming data centre programmes we would welcome a conversation.\n\nYou may also register your interest here: https://wkf.ms/49UFACP \n\nTo better understand the profile of professionals within our network:\nWhich electrical qualification do you currently hold? See the poll\n\n{hashtag|\\#|Electricians} {hashtag|\\#|JIB} {hashtag|\\#|ECS} {hashtag|\\#|DataCentres} {hashtag|\\#|CriticalInfrastructure} {hashtag|\\#|MEP} {hashtag|\\#|EMEA}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
