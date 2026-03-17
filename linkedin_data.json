@@ -1,9 +1,34 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1773730142.633826
+    "generatedAt": 1773751186.1528625
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1773746908374,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1773746938372,
+      "visibility": "PUBLIC",
+      "publishedAt": 1773746908374,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:share:7439633751363596288",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "altText": "",
+          "id": "https://media.licdn.com/dms/image/v2/D4E22AQFmjTl-E7gzOw/feedshare-shrink_2048_1536/B4EZz7jec4HsAg-/0/1773746907312?e=1775088000&v=beta&t=ZLre3LwxF84J4Ak-8F06MmIqGQ5aaYLgGMk4UAKhOCs",
+          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQFmjTl-E7gzOw/feedshare-shrink_2048_1536/B4EZz7jec4HsAg-/0/1773746907312?e=1775088000&v=beta&t=ZLre3LwxF84J4Ak-8F06MmIqGQ5aaYLgGMk4UAKhOCs"
+        }
+      },
+      "commentary": "Glazing remains one of the most exposed elements of the building envelope when it comes to electromagnetic transmission. As connectivity increases across 5G, wireless networks and smart systems, \ud835\uddfa\ud835\uddee\ud835\uddfb\ud835\uddee\ud835\uddf4\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\ude01\ud835\uddf5\ud835\uddee\ud835\ude01 \ud835\uddf2\ud835\ude05\ud835\uddfd\ud835\uddfc\ud835\ude00\ud835\ude02\ud835\uddff\ud835\uddf2 \ud835\uddf6\ud835\ude00 \ud835\uddef\ud835\uddf2\ud835\uddf0\ud835\uddfc\ud835\uddfa\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddee \ud835\uddfa\ud835\uddfc\ud835\uddff\ud835\uddf2 \ud835\uddf1\ud835\uddf2\ud835\uddf9\ud835\uddf6\ud835\uddef\ud835\uddf2\ud835\uddff\ud835\uddee\ud835\ude01\ud835\uddf2 \ud835\uddf0\ud835\uddfc\ud835\uddfb\ud835\ude00\ud835\uddf6\ud835\uddf1\ud835\uddf2\ud835\uddff\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb; particularly in data centres, government facilities, healthcare environments and high-security commercial spaces.\n\nEMF window films provide a practical, retrofit solution. Applied directly to existing glazing, they help reduce electromagnetic transmission while maintaining transparency and natural light. At the same time, they contribute to glass containment, adding a layer of physical protection in the event of breakage.\n\nWe deliver these specialist films as part of a wider approach to building performance; combining security, safety and operational resilience.\n\nFor organisations reviewing infrastructure, the role of glass is changing. It is not just a design element, it's part of the system.\n\n{hashtag|\\#|EMFProtection} {hashtag|\\#|SolarGard} {hashtag|\\#|SaintGobain} {hashtag|\\#|WindowFilm} {hashtag|\\#|BuildingResilience} {hashtag|\\#|DataCentreSecurity} {hashtag|\\#|FilmtekSolutions}",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1773391962146,
@@ -217,31 +242,6 @@
         }
       },
       "commentary": "This week, our Technical Operations Manager, @[Gavin Bannerman](urn:li:person:y0E9qox69A), shared a perspective that clearly resonated within the data centre sector.\n\n\u201cIt\u2019s not a labour shortage. It\u2019s a standards shortage.\u201d\n\nAcross EMEA, data centre capacity is scaling at pace. Yet on many projects, the pressure is not simply about numbers on site, it is about whether the electrical workforce truly understands the environment in which they are operating.\n\nThere is a material difference between commercial installation and mission-critical delivery.\n\nBetween wiring a distribution board and wiring it to BS 7671 standard, achieving first-time inspection approval, and producing documentation that supports rather than delays commissioning.\n\nBetween pulling cable and understanding containment strategy, segregation requirements and the implications of design integrity within a Tier III facility.\n\nBetween completing a panel schedule and appreciating fault levels, discrimination studies and how each circuit integrates into a resilient power architecture where errors carry operational consequences.\n\nMission-critical projects do not tolerate ambiguity. They require technically competent, accountable electricians who understand not just how to install, but why the precision matters.\n\nAt FDS, our approach is built around deploying managed, qualified teams who are mission-critical literate and aligned to structured delivery environments.\n\nAs programme demands increase, so too must the standard of the workforce supporting them.\n\nIf your upcoming phases require electrical capability aligned to commissioning, compliance and clean handover, we welcome the discussion.\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ElectricalEngineering} {hashtag|\\#|ProgrammeCertainty} {hashtag|\\#|MEP} {hashtag|\\#|EMEA}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1772093990552,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1772094068113,
-      "visibility": "PUBLIC",
-      "publishedAt": 1772093990552,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:share:7432700911069708288",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "altText": "",
-          "id": "https://media.licdn.com/dms/image/v2/D4E22AQE-hyHr-rf8iw/feedshare-shrink_2048_1536/B4EZyZCF_PHkAk-/0/1772093989132?e=1775088000&v=beta&t=yCJHBgfA4lSZPOtVaQqtWZqUG7nzaHYMsI77C9kiyYs",
-          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQE-hyHr-rf8iw/feedshare-shrink_2048_1536/B4EZyZCF_PHkAk-/0/1772093989132?e=1775088000&v=beta&t=yCJHBgfA4lSZPOtVaQqtWZqUG7nzaHYMsI77C9kiyYs"
-        }
-      },
-      "commentary": "Filmtek Data Solutions will be attending Data Centre World London on 4\u20135 March at ExCeL.\n\nIt\u2019s a must attend event on the calendar and as our work continues to grow across the UK and EMEA, we look forward to reconnecting with industry colleagues and meeting new partners.\n\nIf you\u2019re attending, we\u2019d be pleased to see you there.\n\nContact us at: info\\@filmtekdatasolutions.com \n\n{hashtag|\\#|FDS} {hashtag|\\#|DCW} {hashtag|\\#|DataCentreWorld2026} ",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
