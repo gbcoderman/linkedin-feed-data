@@ -1,9 +1,60 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1773796001.6055117
+    "generatedAt": 1773816464.8783867
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1773816175120,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1773816205299,
+      "visibility": "PUBLIC",
+      "publishedAt": 1773816175120,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:ugcPost:7439924275639316480",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "poll": {
+          "options": [
+            {
+              "isVotedByViewer": false,
+              "voteCount": 0,
+              "text": "Extensive - DC/White Space"
+            },
+            {
+              "isVotedByViewer": false,
+              "voteCount": 0,
+              "text": "Some \u2013 Clean-Build/Controlled"
+            },
+            {
+              "isVotedByViewer": false,
+              "voteCount": 0,
+              "text": "Limited \u2013 General Construction"
+            },
+            {
+              "isVotedByViewer": false,
+              "voteCount": 0,
+              "text": "Looking to Move into This Area"
+            }
+          ],
+          "settings": {
+            "duration": "SEVEN_DAYS",
+            "voteSelectionType": "SINGLE_VOTE",
+            "isVoterVisibleToAuthor": true
+          },
+          "uniqueVotersCount": 0,
+          "question": "What level of exposure do you have to clean-build or white space environments?"
+        }
+      },
+      "commentary": "Clean-Build & White Space Specialists - We\u2019re Looking to Connect\n\nWorking in white space environments requires a different level of discipline.\nThose who\u2019ve operated in data centres will understand installation is only one part of the role. Clean-build protocols, contamination control and structured working practices are just as critical to successful delivery.\n\nWe are currently building a network of electricians and operatives with experience in:\n\n \u2022 White space installations\n \u2022 Clean-build environments\n \u2022 ISO 14644-1 awareness\n \u2022 Live or near-live environments\n \u2022 Commissioning-phase delivery\n\nTo better understand the experience within our network:\n\nWhat level of exposure do you have to clean-build or white space environments?\n\\(See poll below\\)\n\nIf you have experience working to these standards and are looking to be part of upcoming data centre projects, we would welcome the opportunity to connect.\nApply here: https://wkf.ms/49UFACP\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|CleanBuild} {hashtag|\\#|WhiteSpace} {hashtag|\\#|MissionCritical} {hashtag|\\#|Electricians} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionCareers}\n{hashtag|\\#|DataCentres} {hashtag|\\#|CleanBuild} {hashtag|\\#|WhiteSpace} {hashtag|\\#|MissionCritical} {hashtag|\\#|Electricians} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionCareers}",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1773746908374,
@@ -217,31 +268,6 @@
         }
       },
       "commentary": "The Invisible Risk in Modern Buildings\n\nAs buildings become more connected, the conversation around performance is evolving. It\u2019s no longer limited to energy efficiency and aesthetics, our clients are asking how their physical environment supports digital resilience.\n\nElectromagnetic transmission through glazing is now part of that discussion.\nEMF window films offer a discreet way to reduce signal transmission through glass - often the most permeable element of the building envelope - while also providing glass containment benefits. For data centres, secure facilities, healthcare environments and high-spec commercial buildings, this is becoming a considered layer of protection rather than a specialist add-on.\n\nWe deliver high-performance EMF film solutions tailored to secure and mission-critical environments.\n\nIf you are reviewing building security, information protection or infrastructure resilience, it may be time to look at your glass differently.\n\nContact us for more information: info\\@filmtekdatasolutions.com\n\n{hashtag|\\#|EMFProtection} {hashtag|\\#|WindowFilm} {hashtag|\\#|BuildingResilience} {hashtag|\\#|DataCentreSecurity} {hashtag|\\#|FilmtekSolutions}\n",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1772179883226,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1772179909340,
-      "visibility": "PUBLIC",
-      "publishedAt": 1772179883226,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:share:7433061169487167488",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "altText": "",
-          "id": "https://media.licdn.com/dms/image/v2/D4E22AQEsXBpgSlC-Tg/feedshare-shrink_2048_1536/B4EZyeJvxdH8Ak-/0/1772179881355?e=1775692800&v=beta&t=Q1AaoTVZ6ZMiKAHSIqkf-o7Tl9rJuwKraNjN_YPxVck",
-          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQEsXBpgSlC-Tg/feedshare-shrink_2048_1536/B4EZyeJvxdH8Ak-/0/1772179881355?e=1775692800&v=beta&t=Q1AaoTVZ6ZMiKAHSIqkf-o7Tl9rJuwKraNjN_YPxVck"
-        }
-      },
-      "commentary": "This week, our Technical Operations Manager, @[Gavin Bannerman](urn:li:person:y0E9qox69A), shared a perspective that clearly resonated within the data centre sector.\n\n\u201cIt\u2019s not a labour shortage. It\u2019s a standards shortage.\u201d\n\nAcross EMEA, data centre capacity is scaling at pace. Yet on many projects, the pressure is not simply about numbers on site, it is about whether the electrical workforce truly understands the environment in which they are operating.\n\nThere is a material difference between commercial installation and mission-critical delivery.\n\nBetween wiring a distribution board and wiring it to BS 7671 standard, achieving first-time inspection approval, and producing documentation that supports rather than delays commissioning.\n\nBetween pulling cable and understanding containment strategy, segregation requirements and the implications of design integrity within a Tier III facility.\n\nBetween completing a panel schedule and appreciating fault levels, discrimination studies and how each circuit integrates into a resilient power architecture where errors carry operational consequences.\n\nMission-critical projects do not tolerate ambiguity. They require technically competent, accountable electricians who understand not just how to install, but why the precision matters.\n\nAt FDS, our approach is built around deploying managed, qualified teams who are mission-critical literate and aligned to structured delivery environments.\n\nAs programme demands increase, so too must the standard of the workforce supporting them.\n\nIf your upcoming phases require electrical capability aligned to commissioning, compliance and clean handover, we welcome the discussion.\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ElectricalEngineering} {hashtag|\\#|ProgrammeCertainty} {hashtag|\\#|MEP} {hashtag|\\#|EMEA}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
