@@ -1,9 +1,34 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1773968526.7200313
+    "generatedAt": 1773988730.8705158
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1773818332833,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1773987302691,
+      "visibility": "PUBLIC",
+      "publishedAt": 1773987302646,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:share:7439933325416292352",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "altText": "",
+          "id": "https://media.licdn.com/dms/image/v2/D4E22AQFTWt5R97oJww/feedshare-shrink_2048_1536/B4EZz_z70uHEAg-/0/1773818330787?e=1775692800&v=beta&t=fsh9e4DN2y_roUeaak3NetD_vqCETVe0epfw7bC1NV8",
+          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQFTWt5R97oJww/feedshare-shrink_2048_1536/B4EZz_z70uHEAg-/0/1773818330787?e=1775692800&v=beta&t=fsh9e4DN2y_roUeaak3NetD_vqCETVe0epfw7bC1NV8"
+        }
+      },
+      "commentary": "Workforce Capability Is a Programme Variable \n\nWhen labour is introduced without structure, projects tend to experience the same issues: \n\n\u2022 Failed inspections \n\u2022 Rework during commissioning \n\u2022 Documentation gaps at handover \n\u2022 Delays caused by sequencing or incomplete installations \n\nThese challenges rarely stem from design or materials. More often, they arise when workforce capability is not aligned with the demands of the environment. \n\nAs Steve Harrhy, Director at Filmtek Data Solutions, puts it: \u201c\ud835\ude10\ud835\ude2f \ud835\ude2e\ud835\ude2a\ud835\ude34\ud835\ude34\ud835\ude2a\ud835\ude30\ud835\ude2f-\ud835\ude24\ud835\ude33\ud835\ude2a\ud835\ude35\ud835\ude2a\ud835\ude24\ud835\ude22\ud835\ude2d \ud835\ude25\ud835\ude26\ud835\ude2d\ud835\ude2a\ud835\ude37\ud835\ude26\ud835\ude33\ud835\ude3a, \ud835\ude3a\ud835\ude30\ud835\ude36 \ud835\ude25\ud835\ude30\ud835\ude2f\u2019\ud835\ude35 \ud835\ude2d\ud835\ude30\ud835\ude34\ud835\ude26 \ud835\ude35\ud835\ude2a\ud835\ude2e\ud835\ude26 \ud835\ude23\ud835\ude26\ud835\ude24\ud835\ude22\ud835\ude36\ud835\ude34\ud835\ude26 \ud835\ude30\ud835\ude27 \ud835\ude25\ud835\ude26\ud835\ude34\ud835\ude2a\ud835\ude28\ud835\ude2f; \ud835\ude3a\ud835\ude30\ud835\ude36 \ud835\ude2d\ud835\ude30\ud835\ude34\ud835\ude26 \ud835\ude2a\ud835\ude35 \ud835\ude23\ud835\ude26\ud835\ude24\ud835\ude22\ud835\ude36\ud835\ude34\ud835\ude26 \ud835\ude35\ud835\ude29\ud835\ude26 \ud835\ude38\ud835\ude30\ud835\ude33\ud835\ude2c\ud835\ude27\ud835\ude30\ud835\ude33\ud835\ude24\ud835\ude26 \ud835\ude2a\ud835\ude34\ud835\ude2f\u2019\ud835\ude35 \ud835\ude22\ud835\ude2d\ud835\ude2a\ud835\ude28\ud835\ude2f\ud835\ude26\ud835\ude25 \ud835\ude35\ud835\ude30 \ud835\ude35\ud835\ude29\ud835\ude26 \ud835\ude34\ud835\ude35\ud835\ude22\ud835\ude2f\ud835\ude25\ud835\ude22\ud835\ude33\ud835\ude25 \ud835\ude35\ud835\ude29\ud835\ude26 \ud835\ude31\ud835\ude33\ud835\ude30\ud835\ude2b\ud835\ude26\ud835\ude24\ud835\ude35 \ud835\ude25\ud835\ude26\ud835\ude2e\ud835\ude22\ud835\ude2f\ud835\ude25\ud835\ude34.\u201d \n\nEffective delivery requires more than labour availability. It requires teams who can integrate into structured programmes, operate within commissioning timelines and consistently deliver to the standards required for clean handover. \n\nOur workforce is deployed with a clear understanding of sequencing, compliance and commissioning readiness - helping projects maintain momentum through the most demanding phases of delivery. In this environment, workforce capability is a key factor in programme certainty. \n\nReach out to know more: info\\@filmtekdatasolutions.com \n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ProgrammeDelivery} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|MEP} {hashtag|\\#|CriticalInfrastructure}",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1773942043486,
