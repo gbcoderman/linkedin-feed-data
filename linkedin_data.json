@@ -1,9 +1,32 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1774248934.876375
+    "generatedAt": 1774269414.1428971
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1774263825205,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1774263920882,
+      "visibility": "PUBLIC",
+      "publishedAt": 1774263920827,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:ugcPost:7441801856114180096",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "id": "urn:li:video:D4E05AQGRpFtXRVJFoQ"
+        }
+      },
+      "commentary": "The introduction of Martyn\u2019s Law marks a significant and necessary shift in how we approach safety and risk within public and commercial environments. Its intent is clear... raising the baseline for preparedness and accountability in the face of evolving security threats.\n\nHowever, as with any regulatory change of this scale, the path to compliance deserves careful consideration. \n\nFor organisations operating within high-value environments the implications extend beyond policy updates or procedural adjustments. Martyn\u2019s Law introduces a new layer of responsibility that intersects with design, operational resilience and the built environment itself.\n\nAt Filmtek Data Solutions, we see this as an opportunity to take a more integrated approach. Security, infrastructure and operational continuity cannot be treated in isolation. Retrofitting compliance without a clear strategy risks inefficiencies, unnecessary cost and potential disruption to live environments.\n\nEarly engagement, cross-disciplinary planning and a clear understanding of both the intent and practical application of the legislation will be key. The goal is not simply to meet a requirement but to implement measures that are proportionate and aligned with the operational realities of each facility.\n\nAs the industry begins to respond, thoughtful execution will define the difference between compliance on paper and meaningful risk mitigation in practice.\n\nWe welcome the conversation with clients and partners navigating this shift.\n\ninfo\\@filmtekdatasolutions.com \n\n{hashtag|\\#|MartynsLaw} {hashtag|\\#|DataCentres} {hashtag|\\#|Infrastructure} {hashtag|\\#|Security} {hashtag|\\#|Compliance} {hashtag|\\#|MissionCritical} {hashtag|\\#|BuiltEnvironment}",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1773818332833,
@@ -247,31 +270,6 @@
         "thirdPartyDistributionChannels": []
       },
       "commentary": "A great few days had by our team at DCW London 2026. We enjoyed the open conversations and connections made. Looking forward to continuing to build on those relationships. {hashtag|\\#|DCW2026}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1772620786167,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1772620816167,
-      "visibility": "PUBLIC",
-      "publishedAt": 1772620786167,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:share:7434910452498837504",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "altText": "",
-          "id": "https://media.licdn.com/dms/image/v2/D4E22AQE3fll1R_6tWA/feedshare-shrink_2048_1536/B4EZy4bqGQHoAk-/0/1772620784319?e=1775692800&v=beta&t=RMH7_tG366VVL5X9cpA-GqsIsmoOu3dU-f3gEmcS794",
-          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQE3fll1R_6tWA/feedshare-shrink_2048_1536/B4EZy4bqGQHoAk-/0/1772620784319?e=1775692800&v=beta&t=RMH7_tG366VVL5X9cpA-GqsIsmoOu3dU-f3gEmcS794"
-        }
-      },
-      "commentary": "Workforce capability has become a critical variable in programme success.\nFor projects operating within live or near-live environments, labour cannot simply be sourced when required and expected to integrate. It must be planned, structured and aligned to the realities of mission-critical delivery.\n\nOur workforce model is designed specifically around that requirement.\nOur approach centres on three principles:\n\n- Strategic Workforce Planning\nForecasting labour demand against key delivery milestones, including the L1\u2013L5 commissioning lifecycle, ensuring the right capability is deployed when programme pressure is at its highest.\n\n- Competency & Compliance Management\n Rigorous certification oversight, ECS/CSCS validation and supervision where required, ensuring operatives meet both statutory and client-specific standards.\n\n- Structured Deployment\nTechnically competent teams capable of integrating into existing PMO and GC structures, supported by experienced site leads who understand sequencing, safety and delivery discipline.\n\nThe aim is straightforward: reduce programme risk, support critical path activities and provide scalable workforce capability when projects need it most.\n\nIn mission-critical construction, workforce solutions must be engineered. \n\nReach out to know more: info\\@filmtekdatasolutions.com \n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|MEP} {hashtag|\\#|CriticalInfrastructure} {hashtag|\\#|EMEA}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
