@@ -1,9 +1,32 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1774508077.4861832
+    "generatedAt": 1774529067.0733569
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1774518901056,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1774518980575,
+      "visibility": "PUBLIC",
+      "publishedAt": 1774518980502,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:ugcPost:7442871721654808576",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "id": "urn:li:video:D4E05AQGmMMU2f2TB7A"
+        }
+      },
+      "commentary": "A considered approach to risk is often what defines best-in-class organisations.\n\nThis week saw us supporting a high-net-worth client in the City of London with the installation of anti-bandit and blast containment window films - a proactive step that reflects a clear commitment to duty of care.\n\nIn the event of an incident, unprotected glazing can present one of the greatest risks to both people and the internal fabric of a building. By specifying specialist containment films, the client is taking measured action to protect staff, reduce potential injury from glass fragmentation and safeguard the integrity of their workspace.\n\nIt\u2019s encouraging to see organisations treating glazing not as an afterthought, but as a critical component of their overall security and resilience strategy.\n\nReach out to know more: info\\@filmtekdatasolutions.com\n\n{hashtag|\\#|WindowFilm} {hashtag|\\#|BlastProtection} {hashtag|\\#|DutyOfCare} {hashtag|\\#|BuildingResilience} {hashtag|\\#|FilmtekSolutions}",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1774337700685,
@@ -248,31 +271,6 @@
         }
       },
       "commentary": "Modular Power Is Only Faster If Integration Is Managed\n\nModular power units are designed to accelerate data centre delivery. But when the module arrives on site, the work is only just beginning.\n\n- Transport inspections.\n- Access infrastructure.\n- Electrical connections.\n- Cabling installation.\n- Mechanical ancillaries.\n- Technical cleaning ahead of commissioning.\n\nToo often these activities are split across multiple subcontractors, each introducing additional coordination, programme risk and potential delay.\n\nAs @[Gavin Bannerman](urn:li:person:y0E9qox69A), Technical Operations Manager at Filmtek Data Solutions, explains:\n\n\u201cThere\u2019s a difference between a module that\u2019s been delivered and a module that\u2019s been integrated.\u201d\n\nWe bring these secondary works together under a single managed scope; delivering turnkey module integration through teams that understand the sequencing, standards and discipline required in mission-critical environments.\n\nOne team. One mobilisation. One point of accountability.\n\nFrom the moment the module arrives on site to the point it is integrated and ready for commissioning.\n\nContact us to know more: info\\@filmtekdatasolutions.com\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ModularInfrastructure} {hashtag|\\#|CriticalPower} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|EMEA}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1772783480226,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1772783510579,
-      "visibility": "PUBLIC",
-      "publishedAt": 1772783480226,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:share:7435592839327125505",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "altText": "",
-          "id": "https://media.licdn.com/dms/image/v2/D4E22AQGG17ZxKmdfwA/feedshare-shrink_2048_1536/B4EZzCISSjKkAk-/0/1772783478194?e=1776297600&v=beta&t=248SLmWWcgieiRT46TrFdb9TmIT_NpNSaYL-SSjEvDs",
-          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQGG17ZxKmdfwA/feedshare-shrink_2048_1536/B4EZzCISSjKkAk-/0/1772783478194?e=1776297600&v=beta&t=248SLmWWcgieiRT46TrFdb9TmIT_NpNSaYL-SSjEvDs"
-        }
-      },
-      "commentary": "\ud835\uddea\ud835\uddf2 \ud835\uddee\ud835\uddff\ud835\uddf2 \ud835\uddef\ud835\ude02\ud835\uddf6\ud835\uddf9\ud835\uddf1\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddee \ud835\uddfb\ud835\uddf2\ud835\ude01\ud835\ude04\ud835\uddfc\ud835\uddff\ud835\uddf8 \ud835\uddfc\ud835\uddf3 \ud835\udddd\ud835\udddc\ud835\uddd5 / \ud835\uddd8\ud835\uddd6\ud835\udde6-\ud835\uddfe\ud835\ude02\ud835\uddee\ud835\uddf9\ud835\uddf6\ud835\uddf3\ud835\uddf6\ud835\uddf2\ud835\uddf1 \ud835\uddf2\ud835\uddf9\ud835\uddf2\ud835\uddf0\ud835\ude01\ud835\uddff\ud835\uddf6\ud835\uddf0\ud835\uddf6\ud835\uddee\ud835\uddfb\ud835\ude00 who are accustomed to working on projects where standards are high and expectations are clear.\n\nAs data centre construction continues to scale across EMEA, the demand for experienced electricians who understand mission-critical environments is growing rapidly.\n\nThese environments are different from typical commercial installations. Work takes place within highly structured programmes where:\n\n \u2022 Clean-build discipline is maintained throughout installation\n \u2022 Permit-to-work systems are strictly followed\n \u2022 Installations must stand up to commissioning scrutiny\n \u2022 Testing and documentation are completed to the highest standard\n \u2022 Close coordination with wider MEP and commissioning teams is essential\n\nWe are particularly interested in connecting with electricians who have experience working in data centres, plant rooms, white space environments, or other forms of critical infrastructure.\n\nOver the coming months we will be supporting a number of projects across the region, and we are actively building a talent pipeline of electricians who take pride in operating within these professional, high-performance environments.\n\nIf that reflects your experience, we would welcome the opportunity to connect. Register your interest here: https://wkf.ms/49UFACP\n \n{hashtag|\\#|Electricians} {hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|JIB} {hashtag|\\#|ECS} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionCareers}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
