@@ -1,9 +1,32 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1775545307.1642964
+    "generatedAt": 1775566299.2436113
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1775555537816,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1775555560049,
+      "visibility": "PUBLIC",
+      "publishedAt": 1775555560008,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:ugcPost:7447219692710019072",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "id": "urn:li:video:D4E05AQG5L25I5cblNw"
+        }
+      },
+      "commentary": "In many buildings, security strategies focus on access control, surveillance and perimeter protection. Far less attention is given to the performance of the glazing itself.\n\nIn the City of London, we supported a high-net-worth client with the installation of anti-bandit and blast containment window films - a deliberate step to address one of the most vulnerable elements of any fa\u00e7ade.\nIn the event of an incident, glass can become the primary source of injury and internal damage. By integrating containment solutions, the client is strengthening their environment in a way that protects people, preserves the internal fabric of the building and reflects a clear sense of responsibility towards those who occupy it.\n\nThere is a noticeable shift in how leading organisations are thinking about risk with glazing now recognised as a key part of a wider resilience strategy.\n\nFor further information: info\\@filmtekdatasolutions.com\n\n{hashtag|\\#|WindowFilm} {hashtag|\\#|BlastProtection} {hashtag|\\#|BuildingResilience} {hashtag|\\#|SecurityStrategy} {hashtag|\\#|FilmtekSolutions}",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1775029740589,
@@ -247,30 +270,6 @@
         }
       },
       "commentary": "Glazing remains one of the most exposed elements of the building envelope when it comes to electromagnetic transmission. As connectivity increases across 5G, wireless networks and smart systems, \ud835\uddfa\ud835\uddee\ud835\uddfb\ud835\uddee\ud835\uddf4\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\ude01\ud835\uddf5\ud835\uddee\ud835\ude01 \ud835\uddf2\ud835\ude05\ud835\uddfd\ud835\uddfc\ud835\ude00\ud835\ude02\ud835\uddff\ud835\uddf2 \ud835\uddf6\ud835\ude00 \ud835\uddef\ud835\uddf2\ud835\uddf0\ud835\uddfc\ud835\uddfa\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddee \ud835\uddfa\ud835\uddfc\ud835\uddff\ud835\uddf2 \ud835\uddf1\ud835\uddf2\ud835\uddf9\ud835\uddf6\ud835\uddef\ud835\uddf2\ud835\uddff\ud835\uddee\ud835\ude01\ud835\uddf2 \ud835\uddf0\ud835\uddfc\ud835\uddfb\ud835\ude00\ud835\uddf6\ud835\uddf1\ud835\uddf2\ud835\uddff\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb; particularly in data centres, government facilities, healthcare environments and high-security commercial spaces.\n\nEMF window films provide a practical, retrofit solution. Applied directly to existing glazing, they help reduce electromagnetic transmission while maintaining transparency and natural light. At the same time, they contribute to glass containment, adding a layer of physical protection in the event of breakage.\n\nWe deliver these specialist films as part of a wider approach to building performance; combining security, safety and operational resilience.\n\nFor organisations reviewing infrastructure, the role of glass is changing. It is not just a design element, it's part of the system.\n\n{hashtag|\\#|EMFProtection} {hashtag|\\#|SolarGard} {hashtag|\\#|SaintGobain} {hashtag|\\#|WindowFilm} {hashtag|\\#|BuildingResilience} {hashtag|\\#|DataCentreSecurity} {hashtag|\\#|FilmtekSolutions}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1773391962146,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1773391977972,
-      "visibility": "PUBLIC",
-      "publishedAt": 1773391962146,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:ugcPost:7438144999403298816",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "title": "What is Commissioning",
-          "id": "urn:li:document:D4E1FAQE8V0d5WleOYg"
-        }
-      },
-      "commentary": "Commissioning is where the truth is revealed.\nIt\u2019s the moment systems are tested, validated and proven ready for operation - and where installation quality becomes impossible to hide.\n\nCommissioning is not a box-ticking exercise. It is the process that ensures systems are designed, inspected, tested and documented correctly before going live.\n\nWe\u2019ve broken down the fundamentals in the carousel below and why commissioning should be considered long before the final stages of a project.\n\nBecause when commissioning begins, the quality of the workforce behind the installation quickly becomes clear.\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|Commissioning} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionLeadership} \\#CriticalInfrastructure\\#DataCentres {hashtag|\\#|MissionCritical} {hashtag|\\#|Commissioning} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|CriticalInfrastructure}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
