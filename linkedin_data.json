@@ -1,9 +1,34 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1775783603.5974443
+    "generatedAt": 1775805178.4592175
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1775798830479,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1775798860478,
+      "visibility": "PUBLIC",
+      "publishedAt": 1775798830479,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:share:7448240136988995584",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "altText": "",
+          "id": "https://media.licdn.com/dms/image/v2/D4E22AQECSDbM1UU4pg/feedshare-shrink_2048_1536/B4EZ11275lJMAk-/0/1775798829030?e=1777507200&v=beta&t=S5dNMxJO3UNH9Dz8T4qo_OHoioehxjbzZAhhvk3a9TA",
+          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQECSDbM1UU4pg/feedshare-shrink_2048_1536/B4EZ11275lJMAk-/0/1775798829030?e=1777507200&v=beta&t=S5dNMxJO3UNH9Dz8T4qo_OHoioehxjbzZAhhvk3a9TA"
+        }
+      },
+      "commentary": "In live and near-live environments, workforce performance directly impacts sequencing, commissioning timelines and ultimately, handover. It cannot be treated as a variable to manage reactively.\n\nMission-critical infrastructure demands more:\n \u2022 Operatives who are technically literate and environment-aware\n \u2022 Consistent adherence to clean-build and safety protocols\n \u2022 Clear understanding of commissioning requirements\n \u2022 Alignment with MOPs, SOPs and permit-to-work systems\n \u2022 The ability to mobilise at pace without compromising standards\n\nThis is why the industry is moving beyond transactional labour models.\n\nOur focus is on delivering structured, technically aligned workforce solutions - teams that integrate into project environments, operate within programme constraints and support delivery through the most critical phases.\n\nBecause in mission-critical construction, workforce capability is a key driver of programme certainty.\n\nFind out more here: \n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ProgrammeManagement} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|EMEA}\n",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1775555537816,
@@ -245,31 +270,6 @@
         }
       },
       "commentary": "Clean-Build & White Space Specialists - We\u2019re Looking to Connect\n\nWorking in white space environments requires a different level of discipline.\nThose who\u2019ve operated in data centres will understand installation is only one part of the role. Clean-build protocols, contamination control and structured working practices are just as critical to successful delivery.\n\nWe are currently building a network of electricians and operatives with experience in:\n\n \u2022 White space installations\n \u2022 Clean-build environments\n \u2022 ISO 14644-1 awareness\n \u2022 Live or near-live environments\n \u2022 Commissioning-phase delivery\n\nTo better understand the experience within our network:\n\nWhat level of exposure do you have to clean-build or white space environments?\n\\(See poll below\\)\n\nIf you have experience working to these standards and are looking to be part of upcoming data centre projects, we would welcome the opportunity to connect.\nApply here: https://wkf.ms/49UFACP\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|CleanBuild} {hashtag|\\#|WhiteSpace} {hashtag|\\#|MissionCritical} {hashtag|\\#|Electricians} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionCareers}\n{hashtag|\\#|DataCentres} {hashtag|\\#|CleanBuild} {hashtag|\\#|WhiteSpace} {hashtag|\\#|MissionCritical} {hashtag|\\#|Electricians} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionCareers}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1773746908374,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1773746938372,
-      "visibility": "PUBLIC",
-      "publishedAt": 1773746908374,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:share:7439633751363596288",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "altText": "",
-          "id": "https://media.licdn.com/dms/image/v2/D4E22AQFmjTl-E7gzOw/feedshare-shrink_2048_1536/B4EZz7jec4HsAg-/0/1773746907312?e=1777507200&v=beta&t=p9niJGbFFAma57P_Lq8AkJful49XEtppveKobsMhHdE",
-          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQFmjTl-E7gzOw/feedshare-shrink_2048_1536/B4EZz7jec4HsAg-/0/1773746907312?e=1777507200&v=beta&t=p9niJGbFFAma57P_Lq8AkJful49XEtppveKobsMhHdE"
-        }
-      },
-      "commentary": "Glazing remains one of the most exposed elements of the building envelope when it comes to electromagnetic transmission. As connectivity increases across 5G, wireless networks and smart systems, \ud835\uddfa\ud835\uddee\ud835\uddfb\ud835\uddee\ud835\uddf4\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\ude01\ud835\uddf5\ud835\uddee\ud835\ude01 \ud835\uddf2\ud835\ude05\ud835\uddfd\ud835\uddfc\ud835\ude00\ud835\ude02\ud835\uddff\ud835\uddf2 \ud835\uddf6\ud835\ude00 \ud835\uddef\ud835\uddf2\ud835\uddf0\ud835\uddfc\ud835\uddfa\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddee \ud835\uddfa\ud835\uddfc\ud835\uddff\ud835\uddf2 \ud835\uddf1\ud835\uddf2\ud835\uddf9\ud835\uddf6\ud835\uddef\ud835\uddf2\ud835\uddff\ud835\uddee\ud835\ude01\ud835\uddf2 \ud835\uddf0\ud835\uddfc\ud835\uddfb\ud835\ude00\ud835\uddf6\ud835\uddf1\ud835\uddf2\ud835\uddff\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb; particularly in data centres, government facilities, healthcare environments and high-security commercial spaces.\n\nEMF window films provide a practical, retrofit solution. Applied directly to existing glazing, they help reduce electromagnetic transmission while maintaining transparency and natural light. At the same time, they contribute to glass containment, adding a layer of physical protection in the event of breakage.\n\nWe deliver these specialist films as part of a wider approach to building performance; combining security, safety and operational resilience.\n\nFor organisations reviewing infrastructure, the role of glass is changing. It is not just a design element, it's part of the system.\n\n{hashtag|\\#|EMFProtection} {hashtag|\\#|SolarGard} {hashtag|\\#|SaintGobain} {hashtag|\\#|WindowFilm} {hashtag|\\#|BuildingResilience} {hashtag|\\#|DataCentreSecurity} {hashtag|\\#|FilmtekSolutions}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
