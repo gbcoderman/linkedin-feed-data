@@ -1,9 +1,34 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1776043159.2565608
+    "generatedAt": 1776066293.7159326
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1776064212705,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1776064242707,
+      "visibility": "PUBLIC",
+      "publishedAt": 1776064212705,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:share:7449353230444171265",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "altText": "",
+          "id": "https://media.licdn.com/dms/image/v2/D4E22AQGcxYYtOe_JIQ/feedshare-shrink_2048_1536/B4EZ2FrSf1KEAg-/0/1776064211243?e=1777507200&v=beta&t=BI5xaGaqs3ZzOSeYba3UUNlHNLlLjIqUyzJ9kpG0C4c",
+          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQGcxYYtOe_JIQ/feedshare-shrink_2048_1536/B4EZ2FrSf1KEAg-/0/1776064211243?e=1777507200&v=beta&t=BI5xaGaqs3ZzOSeYba3UUNlHNLlLjIqUyzJ9kpG0C4c"
+        }
+      },
+      "commentary": "Technical Cleaning is about performance. Dust, debris and contamination don\u2019t just sit on surfaces; they compromise systems, disrupt testing and delay commissioning.\n\nThese environments demand a controlled, disciplined approach aligned to clean-build standards. Done properly, technical cleaning ensures:\n \u2022 White space areas meet required cleanliness levels\n \u2022 Critical equipment is protected before energisation\n \u2022 Contamination risks are removed ahead of testing\n \u2022 Handover isn\u2019t delayed by avoidable issues\n\nTechnical cleaning is built into the delivery process. Our teams operate to clean-build and ISO-aligned standards, supporting projects through to a fully compliant, commissioning-ready state.\n\nIf you\u2019re approaching commissioning or final phases, we\u2019re always open to a conversation. Learn more on our website: https://lnkd.in/e4Tz7Pja\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|TechnicalCleaning} {hashtag|\\#|CleanBuild} {hashtag|\\#|Commissioning} {hashtag|\\#|CriticalInfrastructure}\n",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1775798830479,
@@ -219,57 +244,6 @@
         }
       },
       "commentary": "Wishing Eid Mubarak to everyone celebrating across our teams, clients and partners.\n\nWe hope it\u2019s a peaceful and enjoyable time spent with family and friends.\n\n{hashtag|\\#|EidMubarak2026}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1773816175120,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1773816205299,
-      "visibility": "PUBLIC",
-      "publishedAt": 1773816175120,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:ugcPost:7439924275639316480",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "poll": {
-          "options": [
-            {
-              "isVotedByViewer": false,
-              "voteCount": 0,
-              "text": "Extensive - DC/White Space"
-            },
-            {
-              "isVotedByViewer": false,
-              "voteCount": 0,
-              "text": "Some \u2013 Clean-Build/Controlled"
-            },
-            {
-              "isVotedByViewer": false,
-              "voteCount": 0,
-              "text": "Limited \u2013 General Construction"
-            },
-            {
-              "isVotedByViewer": false,
-              "voteCount": 0,
-              "text": "Looking to Move into This Area"
-            }
-          ],
-          "settings": {
-            "duration": "SEVEN_DAYS",
-            "voteSelectionType": "SINGLE_VOTE",
-            "isVoterVisibleToAuthor": true
-          },
-          "uniqueVotersCount": 0,
-          "question": "What level of exposure do you have to clean-build or white space environments?"
-        }
-      },
-      "commentary": "Clean-Build & White Space Specialists - We\u2019re Looking to Connect\n\nWorking in white space environments requires a different level of discipline.\nThose who\u2019ve operated in data centres will understand installation is only one part of the role. Clean-build protocols, contamination control and structured working practices are just as critical to successful delivery.\n\nWe are currently building a network of electricians and operatives with experience in:\n\n \u2022 White space installations\n \u2022 Clean-build environments\n \u2022 ISO 14644-1 awareness\n \u2022 Live or near-live environments\n \u2022 Commissioning-phase delivery\n\nTo better understand the experience within our network:\n\nWhat level of exposure do you have to clean-build or white space environments?\n\\(See poll below\\)\n\nIf you have experience working to these standards and are looking to be part of upcoming data centre projects, we would welcome the opportunity to connect.\nApply here: https://wkf.ms/49UFACP\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|CleanBuild} {hashtag|\\#|WhiteSpace} {hashtag|\\#|MissionCritical} {hashtag|\\#|Electricians} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionCareers}\n{hashtag|\\#|DataCentres} {hashtag|\\#|CleanBuild} {hashtag|\\#|WhiteSpace} {hashtag|\\#|MissionCritical} {hashtag|\\#|Electricians} {hashtag|\\#|MEP} {hashtag|\\#|ConstructionCareers}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
