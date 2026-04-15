@@ -1,9 +1,33 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1776215715.1736
+    "generatedAt": 1776237302.4436083
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1776232396239,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1776232403416,
+      "visibility": "PUBLIC",
+      "publishedAt": 1776232396239,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:ugcPost:7450058643288453120",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "title": "What is Martyn's Law",
+          "id": "urn:li:document:D4E1FAQHzhDBoTs0_Jg"
+        }
+      },
+      "commentary": "This legislation establishes a clear and consistent expectation: safeguarding people is not optional nor can it be left open to interpretation.\n\nMartyn\u2019s Law represents a fundamental shift in how responsibility for public safety is both defined and enforced.\n\nIn high-value, high-occupancy environments; whether public venues, commercial assets or mission-critical facilities the consequences of underestimating risk are significant. What this legislation brings is long-overdue structure and accountability across the industry.\n\nThe focus now turns to readiness.\n\nUnderstanding the requirements is one part of the equation and implementing them effectively within live, complex environments is another.  Those who take a proactive, considered approach will be far better positioned than those reacting under pressure.\n\nTake a look through the carousel to understand what Martyn\u2019s Law involves, and how to begin preparing your environment.\n\n{hashtag|\\#|MartynsLaw} {hashtag|\\#|Security} {hashtag|\\#|Compliance} {hashtag|\\#|Infrastructure} {hashtag|\\#|RiskManagement} {hashtag|\\#|BuiltEnvironment}\n",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1776064212705,
@@ -219,31 +243,6 @@
         }
       },
       "commentary": "Workforce Capability Is a Programme Variable \n\nWhen labour is introduced without structure, projects tend to experience the same issues: \n\n\u2022 Failed inspections \n\u2022 Rework during commissioning \n\u2022 Documentation gaps at handover \n\u2022 Delays caused by sequencing or incomplete installations \n\nThese challenges rarely stem from design or materials. More often, they arise when workforce capability is not aligned with the demands of the environment. \n\nAs Steve Harrhy, Director at Filmtek Data Solutions, puts it: \u201c\ud835\ude10\ud835\ude2f \ud835\ude2e\ud835\ude2a\ud835\ude34\ud835\ude34\ud835\ude2a\ud835\ude30\ud835\ude2f-\ud835\ude24\ud835\ude33\ud835\ude2a\ud835\ude35\ud835\ude2a\ud835\ude24\ud835\ude22\ud835\ude2d \ud835\ude25\ud835\ude26\ud835\ude2d\ud835\ude2a\ud835\ude37\ud835\ude26\ud835\ude33\ud835\ude3a, \ud835\ude3a\ud835\ude30\ud835\ude36 \ud835\ude25\ud835\ude30\ud835\ude2f\u2019\ud835\ude35 \ud835\ude2d\ud835\ude30\ud835\ude34\ud835\ude26 \ud835\ude35\ud835\ude2a\ud835\ude2e\ud835\ude26 \ud835\ude23\ud835\ude26\ud835\ude24\ud835\ude22\ud835\ude36\ud835\ude34\ud835\ude26 \ud835\ude30\ud835\ude27 \ud835\ude25\ud835\ude26\ud835\ude34\ud835\ude2a\ud835\ude28\ud835\ude2f; \ud835\ude3a\ud835\ude30\ud835\ude36 \ud835\ude2d\ud835\ude30\ud835\ude34\ud835\ude26 \ud835\ude2a\ud835\ude35 \ud835\ude23\ud835\ude26\ud835\ude24\ud835\ude22\ud835\ude36\ud835\ude34\ud835\ude26 \ud835\ude35\ud835\ude29\ud835\ude26 \ud835\ude38\ud835\ude30\ud835\ude33\ud835\ude2c\ud835\ude27\ud835\ude30\ud835\ude33\ud835\ude24\ud835\ude26 \ud835\ude2a\ud835\ude34\ud835\ude2f\u2019\ud835\ude35 \ud835\ude22\ud835\ude2d\ud835\ude2a\ud835\ude28\ud835\ude2f\ud835\ude26\ud835\ude25 \ud835\ude35\ud835\ude30 \ud835\ude35\ud835\ude29\ud835\ude26 \ud835\ude34\ud835\ude35\ud835\ude22\ud835\ude2f\ud835\ude25\ud835\ude22\ud835\ude33\ud835\ude25 \ud835\ude35\ud835\ude29\ud835\ude26 \ud835\ude31\ud835\ude33\ud835\ude30\ud835\ude2b\ud835\ude26\ud835\ude24\ud835\ude35 \ud835\ude25\ud835\ude26\ud835\ude2e\ud835\ude22\ud835\ude2f\ud835\ude25\ud835\ude34.\u201d \n\nEffective delivery requires more than labour availability. It requires teams who can integrate into structured programmes, operate within commissioning timelines and consistently deliver to the standards required for clean handover. \n\nOur workforce is deployed with a clear understanding of sequencing, compliance and commissioning readiness - helping projects maintain momentum through the most demanding phases of delivery. In this environment, workforce capability is a key factor in programme certainty. \n\nReach out to know more: info\\@filmtekdatasolutions.com \n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ProgrammeDelivery} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|MEP} {hashtag|\\#|CriticalInfrastructure}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1773942043486,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1773942058553,
-      "visibility": "PUBLIC",
-      "publishedAt": 1773942043486,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:share:7440452207881342976",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "altText": "",
-          "id": "https://media.licdn.com/dms/image/v2/D4E22AQF5qP_VLLrYxw/feedshare-shrink_2048_1536/B4EZ0HL29DGwAo-/0/1773942042759?e=1778112000&v=beta&t=8OjCHJSfDOf72uxc4ngNcOD9jOdieeNNG3dNWl1LWP4",
-          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQF5qP_VLLrYxw/feedshare-shrink_2048_1536/B4EZ0HL29DGwAo-/0/1773942042759?e=1778112000&v=beta&t=8OjCHJSfDOf72uxc4ngNcOD9jOdieeNNG3dNWl1LWP4"
-        }
-      },
-      "commentary": "Wishing Eid Mubarak to everyone celebrating across our teams, clients and partners.\n\nWe hope it\u2019s a peaceful and enjoyable time spent with family and friends.\n\n{hashtag|\\#|EidMubarak2026}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
