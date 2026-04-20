@@ -1,9 +1,33 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1776648015.397294
+    "generatedAt": 1776671216.4111671
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1776666960246,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1776666965149,
+      "visibility": "PUBLIC",
+      "publishedAt": 1776666960246,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:ugcPost:7451881337159954432",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "title": "Commissioning",
+          "id": "urn:li:document:D4E1FAQEBfLKOMrXgXg"
+        }
+      },
+      "commentary": "Commissioning is the point in a project where everything is put under scrutiny - systems are switched on, pushed, tested and expected to perform exactly as intended. At that stage, the quality of design and installation is no longer theoretical.\n\nTreating commissioning as an end-stage activity misses the point. The most successful projects are those where commissioning thinking is built in from the beginning, influencing decisions long before systems go live.\n\nWe\u2019ve set out the fundamentals in the carousel below, and why a more considered approach to commissioning ultimately defines how a project performs in the real world.\n\n{hashtag|\\#|FDS} {hashtag|\\#|Cx} {hashtag|\\#|Commissioning} ",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1776413853995,
@@ -220,29 +244,6 @@
         }
       },
       "commentary": "From Labour Supply to Managed Workforce Delivery\n\nA point raised recently by our Technical Operations Manager, Gavin Bannerman, reflects a common challenge across data centre projects.\n\n\u201cManaging multiple agencies to assemble a workforce isn\u2019t a solution, it\u2019s a management problem you\u2019re paying for twice.\u201d\n\nAcross many sites, construction managers are coordinating multiple labour providers just to maintain headcount while still carrying the burden of supervision, compliance checks and quality control.\n\nThe result is fragmented delivery, increased oversight and valuable project time spent managing inputs rather than progressing outputs. The shift we\u2019re seeing across the sector is towards managed workforce models where responsibility for coordination, supervision and compliance sits within the workforce itself.\n\nThis is how we approach delivery:\n- Integrated supervision and daily coordination\n- Compliance and certification managed ahead of mobilisation\n- Teams that arrive structured, not assembled\n\nThis allows project teams to engage through a single point of contact, while ensuring quality and standards are managed within the workforce, not retrospectively.\n\nAs programmes become more demanding, reducing management overhead and increasing delivery certainty becomes critical.\n\nBecause ultimately, workforce solutions should reduce complexity.\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|WorkforceSolutions} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|MEP} {hashtag|\\#|EMEA}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1774263825205,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1774263920882,
-      "visibility": "PUBLIC",
-      "publishedAt": 1774263920827,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:ugcPost:7441801856114180096",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "id": "urn:li:video:D4E05AQGRpFtXRVJFoQ"
-        }
-      },
-      "commentary": "The introduction of Martyn\u2019s Law marks a significant and necessary shift in how we approach safety and risk within public and commercial environments. Its intent is clear... raising the baseline for preparedness and accountability in the face of evolving security threats.\n\nHowever, as with any regulatory change of this scale, the path to compliance deserves careful consideration. \n\nFor organisations operating within high-value environments the implications extend beyond policy updates or procedural adjustments. Martyn\u2019s Law introduces a new layer of responsibility that intersects with design, operational resilience and the built environment itself.\n\nAt Filmtek Data Solutions, we see this as an opportunity to take a more integrated approach. Security, infrastructure and operational continuity cannot be treated in isolation. Retrofitting compliance without a clear strategy risks inefficiencies, unnecessary cost and potential disruption to live environments.\n\nEarly engagement, cross-disciplinary planning and a clear understanding of both the intent and practical application of the legislation will be key. The goal is not simply to meet a requirement but to implement measures that are proportionate and aligned with the operational realities of each facility.\n\nAs the industry begins to respond, thoughtful execution will define the difference between compliance on paper and meaningful risk mitigation in practice.\n\nWe welcome the conversation with clients and partners navigating this shift.\n\ninfo\\@filmtekdatasolutions.com \n\n{hashtag|\\#|MartynsLaw} {hashtag|\\#|DataCentres} {hashtag|\\#|Infrastructure} {hashtag|\\#|Security} {hashtag|\\#|Compliance} {hashtag|\\#|MissionCritical} {hashtag|\\#|BuiltEnvironment}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
