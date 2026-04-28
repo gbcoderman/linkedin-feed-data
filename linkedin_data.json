@@ -1,9 +1,34 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1777363261.5168695
+    "generatedAt": 1777382573.1661336
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1777374616645,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1777374631201,
+      "visibility": "PUBLIC",
+      "publishedAt": 1777374616645,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:share:7454849463090851842",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "altText": "",
+          "id": "https://media.licdn.com/dms/image/v2/D4E22AQG5E4npF3TowQ/feedshare-shrink_2048_1536/B4EZ3TyFepJgAg-/0/1777374615789?e=1778716800&v=beta&t=hDz8ilt5zYdBRJGHJCHH7fl-TbjjHClC9AiLjJZiuP0",
+          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQG5E4npF3TowQ/feedshare-shrink_2048_1536/B4EZ3TyFepJgAg-/0/1777374615789?e=1778716800&v=beta&t=hDz8ilt5zYdBRJGHJCHH7fl-TbjjHClC9AiLjJZiuP0"
+        }
+      },
+      "commentary": "We are in the middle of the fastest data centre build-out the world has seen. \n\nNew hyperscaler campuses. Sovereign cloud mandates. AI infrastructure driving unprecedented demand for rack density and cooling.\n\nAnd yet the fitout layer remains the most underestimated risk in any data centre project. Wrong flooring spec, substandard aisle containment, MEP sequencing that adds weeks to a handover, cleaning that doesn't meet ISO 14644-1. These are the norm when operators rely on generalist contractors who don't understand critical infrastructure.\n\n\ud835\udde7\ud835\uddf5\ud835\uddee\ud835\ude01'\ud835\ude00 \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\uddf4\ud835\uddee\ud835\uddfd \ud835\uddd9\ud835\uddf6\ud835\uddf9\ud835\uddfa\ud835\ude01\ud835\uddf2\ud835\uddf8 \ud835\uddd7\ud835\uddee\ud835\ude01\ud835\uddee \ud835\udde6\ud835\uddfc\ud835\uddf9\ud835\ude02\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb\ud835\ude00 \ud835\uddf2\ud835\ude05\ud835\uddf6\ud835\ude00\ud835\ude01\ud835\ude00 \ud835\ude01\ud835\uddfc \ud835\uddf0\ud835\uddf9\ud835\uddfc\ud835\ude00\ud835\uddf2.\n\nWe are a specialist turnkey partner for data centres and critical infrastructure across EMEA delivering data hall fitouts, hot & cold aisle containment, server racks and cabinets, MEP installations, specialist flooring and ISO-compliant cleaning services. Everything from shell to live environment, under one accountable team.\n\n30+ years of expertise, international delivery experience and fully active in EMEA.\n\nIf you're planning a fitout, expansion or infrastructure upgrade we'd welcome a conversation before the brief is locked. \n\nDrop a comment, send a DM, or visit filmtekdatasolutions.com\n\n{hashtag|\\#|DataCentre} {hashtag|\\#|CriticalInfrastructure} {hashtag|\\#|DataCentre} {hashtag|\\#|TurnkeyFitout} {hashtag|\\#|MEP} {hashtag|\\#|FacilitiesManagement} {hashtag|\\#|EMEA} {hashtag|\\#|DataHall} {hashtag|\\#|TechInfrastructure}",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1777026985501,
@@ -221,31 +246,6 @@
         }
       },
       "commentary": "In many buildings, security strategies focus on access control, surveillance and perimeter protection. Far less attention is given to the performance of the glazing itself.\n\nIn the City of London, we supported a high-net-worth client with the installation of anti-bandit and blast containment window films - a deliberate step to address one of the most vulnerable elements of any fa\u00e7ade.\nIn the event of an incident, glass can become the primary source of injury and internal damage. By integrating containment solutions, the client is strengthening their environment in a way that protects people, preserves the internal fabric of the building and reflects a clear sense of responsibility towards those who occupy it.\n\nThere is a noticeable shift in how leading organisations are thinking about risk with glazing now recognised as a key part of a wider resilience strategy.\n\nFor further information: info\\@filmtekdatasolutions.com\n\n{hashtag|\\#|WindowFilm} {hashtag|\\#|BlastProtection} {hashtag|\\#|BuildingResilience} {hashtag|\\#|SecurityStrategy} {hashtag|\\#|FilmtekSolutions}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1775029740589,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1775029767739,
-      "visibility": "PUBLIC",
-      "publishedAt": 1775029740589,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:share:7445014337947111424",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "altText": "",
-          "id": "https://media.licdn.com/dms/image/v2/D4E22AQErVV8OCK_CAw/feedshare-shrink_2048_1536/B4EZ1IBF22HYAk-/0/1775029739194?e=1778716800&v=beta&t=pAi6CSBBXeyCTikWzNYqxn2s9UWWnuAQrjZIaRMk9FI",
-          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQErVV8OCK_CAw/feedshare-shrink_2048_1536/B4EZ1IBF22HYAk-/0/1775029739194?e=1778716800&v=beta&t=pAi6CSBBXeyCTikWzNYqxn2s9UWWnuAQrjZIaRMk9FI"
-        }
-      },
-      "commentary": "Security risk is evolving, both in frequency and in nature. What was once considered isolated is now far more widespread, affecting commercial spaces, public-facing environments and high-profile individuals alike.\n\nAs a result, organisations are taking a more considered approach to how their buildings perform under threat.\n\nWe work with safety, security and blast containment window films designed to strengthen glazing under impact. When applied, these systems help hold shattered glass in place, reducing the risk of injury from fragmentation and providing an additional barrier against forced entry.\n\nIn higher-risk environments, our blast mitigation solutions are engineered to reduce glass fallout following shockwave exposure, supporting recognised safety standards and improving occupant protection.\n\nThese are discreet, cost-effective interventions but their impact is significant. Increasingly, glazing is being recognised not just as a design feature, but as a critical component of a building\u2019s overall security strategy.\n\nLearn more here: https://lnkd.in/eT\\_erfps\n\n{hashtag|\\#|WindowFilm} {hashtag|\\#|BuildingResilience} {hashtag|\\#|SecuritySolutions} {hashtag|\\#|BlastProtection} {hashtag|\\#|FilmtekSolutions}\n",
       "lifecycleStateInfo": {
         "isEditedByAuthor": false
       }
