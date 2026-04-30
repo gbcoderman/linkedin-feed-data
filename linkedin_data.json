@@ -1,9 +1,34 @@
 {
   "meta": {
     "followers": 532,
-    "generatedAt": 1777535877.8775136
+    "generatedAt": 1777554917.625642
   },
   "posts": [
+    {
+      "isReshareDisabledByAuthor": false,
+      "createdAt": 1777550389239,
+      "lifecycleState": "PUBLISHED",
+      "lastModifiedAt": 1777550592471,
+      "visibility": "PUBLIC",
+      "publishedAt": 1777550389239,
+      "author": "urn:li:organization:98086113",
+      "id": "urn:li:share:7455586706214387712",
+      "distribution": {
+        "feedDistribution": "MAIN_FEED",
+        "thirdPartyDistributionChannels": []
+      },
+      "content": {
+        "media": {
+          "altText": "",
+          "id": "https://media.licdn.com/dms/image/v2/D4E22AQE3w_hxD8xn3g/feedshare-shrink_2048_1536/B4EZ3eQmf7HMAk-/0/1777550387570?e=1779321600&v=beta&t=7w7OGX3g4M66n7sBltj2V7G9NHjGfNxuxCNjsieCXVg",
+          "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQE3w_hxD8xn3g/feedshare-shrink_2048_1536/B4EZ3eQmf7HMAk-/0/1777550387570?e=1779321600&v=beta&t=7w7OGX3g4M66n7sBltj2V7G9NHjGfNxuxCNjsieCXVg"
+        }
+      },
+      "commentary": "@[Gavin Bannerman](urn:li:person:y0E9qox69A), will be attending @[Data Centre World Frankfurt](urn:li:organization:10551432) next week.\n\nAs our work continues to expand across Europe, these events are a useful opportunity to spend time with clients and partners. If you\u2019re attending and would like to arrange a meeting, feel free to reach out directly or contact us at info\\@filmtekdatasolutions.com.\n\n{hashtag|\\#|FDS} {hashtag|\\#|DataCentreWorld} {hashtag|\\#|Frankfurt} {hashtag|\\#|DataCentres} {hashtag|\\#|DCW} {hashtag|\\#|DCWFrankfurt} {hashtag|\\#|InfrastructureDelivery} ",
+      "lifecycleStateInfo": {
+        "isEditedByAuthor": false
+      }
+    },
     {
       "isReshareDisabledByAuthor": false,
       "createdAt": 1777374616645,
@@ -225,29 +250,6 @@
       "commentary": "In live and near-live environments, workforce performance directly impacts sequencing, commissioning timelines and ultimately, handover. It cannot be treated as a variable to manage reactively.\n\nMission-critical infrastructure demands more:\n \u2022 Operatives who are technically literate and environment-aware\n \u2022 Consistent adherence to clean-build and safety protocols\n \u2022 Clear understanding of commissioning requirements\n \u2022 Alignment with MOPs, SOPs and permit-to-work systems\n \u2022 The ability to mobilise at pace without compromising standards\n\nThis is why the industry is moving beyond transactional labour models.\n\nOur focus is on delivering structured, technically aligned workforce solutions - teams that integrate into project environments, operate within programme constraints and support delivery through the most critical phases.\n\nBecause in mission-critical construction, workforce capability is a key driver of programme certainty.\n\nFind out more here: https://lnkd.in/e3n7yHMY\n\n{hashtag|\\#|DataCentres} {hashtag|\\#|MissionCritical} {hashtag|\\#|ProgrammeManagement} {hashtag|\\#|ConstructionLeadership} {hashtag|\\#|EMEA}",
       "lifecycleStateInfo": {
         "isEditedByAuthor": true
-      }
-    },
-    {
-      "isReshareDisabledByAuthor": false,
-      "createdAt": 1775555537816,
-      "lifecycleState": "PUBLISHED",
-      "lastModifiedAt": 1775555560049,
-      "visibility": "PUBLIC",
-      "publishedAt": 1775555560008,
-      "author": "urn:li:organization:98086113",
-      "id": "urn:li:ugcPost:7447219692710019072",
-      "distribution": {
-        "feedDistribution": "MAIN_FEED",
-        "thirdPartyDistributionChannels": []
-      },
-      "content": {
-        "media": {
-          "id": "urn:li:video:D4E05AQG5L25I5cblNw"
-        }
-      },
-      "commentary": "In many buildings, security strategies focus on access control, surveillance and perimeter protection. Far less attention is given to the performance of the glazing itself.\n\nIn the City of London, we supported a high-net-worth client with the installation of anti-bandit and blast containment window films - a deliberate step to address one of the most vulnerable elements of any fa\u00e7ade.\nIn the event of an incident, glass can become the primary source of injury and internal damage. By integrating containment solutions, the client is strengthening their environment in a way that protects people, preserves the internal fabric of the building and reflects a clear sense of responsibility towards those who occupy it.\n\nThere is a noticeable shift in how leading organisations are thinking about risk with glazing now recognised as a key part of a wider resilience strategy.\n\nFor further information: info\\@filmtekdatasolutions.com\n\n{hashtag|\\#|WindowFilm} {hashtag|\\#|BlastProtection} {hashtag|\\#|BuildingResilience} {hashtag|\\#|SecurityStrategy} {hashtag|\\#|FilmtekSolutions}",
-      "lifecycleStateInfo": {
-        "isEditedByAuthor": false
       }
     }
   ]
